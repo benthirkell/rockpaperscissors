@@ -1,7 +1,3 @@
-// function playRound(playerSelection, computerSelection) {
-    // your code here!
-// }
-
 var user;
 var comp;
 var message = null;
@@ -26,11 +22,8 @@ function reset() {
     displayScore();
 }
 
-// displayScore();
-
 function choose(choice){
     user = choice;
-    // console.log("You chose " + user);
     comp = getComputerChoice()
 
     if (user == comp) {
@@ -63,7 +56,6 @@ function choose(choice){
 
     displayScore();
     
-    // console.log(userPoints,compPoints);
 
     if (userPoints == 5) {
         alert("You are victorious!");
@@ -73,8 +65,3 @@ function choose(choice){
         reset();
     }
 }
-
-// const playerSelection = "rock";
-// const computerSelection = getComputerChoice();
-// console.log(playRound(playerSelection, computerSelection));
-// console.log(computerSelection);

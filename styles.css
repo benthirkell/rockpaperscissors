@@ -1,5 +1,3 @@
-* {
-}
 body {
     display: flex;
     flex-direction: column;
@@ -33,6 +31,4 @@ div {
 }
 div.buttons {
     justify-content: center;
-}
-h1 {
 }
